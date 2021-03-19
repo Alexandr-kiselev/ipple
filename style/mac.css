@@ -1,0 +1,14 @@
+.dark {
+    background: #000;
+}
+.chip {
+    padding: 96px 0 180px;
+    font-size: 80px;
+}
+.chip h1 {
+    background: radial-gradient(ellipse at center, #eff1ff 10%, #000 100%);
+    background-size: 54% 156%;
+    background-position: center center;
+    color: #f5f5f7;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
