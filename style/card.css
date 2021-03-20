@@ -1,0 +1,33 @@
+.header {
+    position: static;
+}
+
+.line {
+    display: block;
+    background: #CFCFCF;
+    height: 1px;
+}
+.card__title {
+    width: 980px;
+    margin: 15px auto;
+
+}
+.card__inner {
+    padding-top: 80px;
+}
+.card__fix {
+    max-width: 411px;
+    position: fixed;
+}
+.servises {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: flex-end;
+}
+.servises img {
+    width: 40px;
+}
+.delivery {
+    margin-right: 40px;
+}

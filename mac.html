@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/mac.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <nav class="nav">
                 <ul>
-                    <li><a href="#"><img src="img/sprite/logo.svg" alt="logo"></a></li>
+                    <li><a href="index.html"><img src="img/sprite/logo.svg" alt="logo"></a></li>
                     <li><a href="#">Mac</a></li>
                     <li><a href="#">iPad</a></li>
                     <li><a href="#">iPhone</a></li>
@@ -27,9 +29,183 @@
             </nav>
         </div>
     </header>
-    <section class="chip dark">
-        <img src="img/mac/chip-m1.jpg" alt="">
-        <h1>Добро пожаловать в будущее Mac.</h1>
+    <section class="product dark">
+        <div class="container">
+            <img class="chip" src="img/mac/chip-m1.jpg" alt="">
+            <h1 class="title">Добро пожаловать в будущее Mac.</h1>
+            <div class="poduct__decrip">
+                <div class="product__text">
+                    <label class="new" for="product__title">Новый</label>
+                    <h2 class="product__title">MacBook Air</h2>
+                    <h3 class="product__subtitle">С новой силой.</h3>
+                    <p class="price">От 99 990 pyб.</p>
+                    <button class="product__btn">Купить</button>
+                    <a class="product__link" href="#">Подробнее ></a>
+                </div>
+                <img src="img/mac/macbook_air.jpg" alt="">
+            </div>
+            <div class="poduct__decrip revers">
+                <div class="product__text">
+                    <label class="new" for="product__title">Новый</label>
+                    <h2 class="product__title">MacBook Pro</h2>
+                    <label class="set" for="product__title">13 дюймов</label>
+                    <h3 class="product__subtitle">Серьёзно прибавил.</h3>
+                    <p class="price">От 129 990 pyб.</p>
+                    <button class="product__btn">Купить</button>
+                    <a class="product__link" href="#">Подробнее ></a>
+                </div>
+                <img src="img/mac/macbook_pro.jpg" alt="">
+            </div>
+            <div class="poduct__decrip">
+                <div class="product__text">
+                    <label class="new" for="product__title">Новый</label>
+                    <h2 class="product__title">Mac mini</h2>
+                    <h3 class="product__subtitle">Обновлён и заряжен.</h3>
+                    <p class="price">От 74 990 pyб.</p>
+                    <button class="product__btn">Купить</button>
+                    <a class="product__link" href="#">Подробнее ></a>
+                </div>
+                <img src="img/mac/mac_mini.jpg" alt="">
+            </div>
+        </div><!-- container -->
+
     </section>
+    <div class="banner-container">
+        <section class="selection">
+
+            <h2 class="selection__title">Выберите свой</br> ноутбук Mac.</h2>
+            <a class="compare" href="#">Сравните все модели Mac ></a>
+            <div class="selection__cards">
+                <div class="card">
+                    <img src="img/mac/macbook_air_card.jpg" alt="">
+                    <div class="wrap__card">
+                        <h3>MacBook Air</h3>
+                        <p>От 99 990 pyб.</p>
+                        <ul>
+                            <li>Дисплей Retina 13,3 дюйма</li>
+                            <li class="chip-feature">Чип Apple M1</li>
+                            <li>Память до 16 ГБ</li>
+                            <li>Накопитель до 2 ТБ</li>
+                            <li>До 18 часов без подзарядки</li>
+                        </ul>
+                        <a href="card.html" class="card__btn"> Купить</a>
+                        <a href="card.html">Подробнее ></a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="img/mac/macbook_pro_13_card.jpg" alt="">
+                    <div class="wrap__card">
+                        <h3>MacBook Pro 13”</h3>
+                        <p>От 129 990 pyб.</p>
+                        <ul>
+                            <li>Дисплей Retina 13,3 дюйма</li>
+                            <li class="chip-feature">Чип Apple M1</br>
+                                <span>
+                                    Также доступны модели с процессором Intel Core i5 или Intel Core i7
+                                </span>
+                            </li>
+                            <li>Память до 16 ГБ</li>
+                            <li>Накопитель до 2 ТБ</li>
+                            <li>До 20 часов без подзарядки</li>
+                        </ul>
+                        <a href="card.html" class="card__btn"> Купить</a>
+                        <a href="card.html">Подробнее ></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/mac/macbook_pro_16_card.jpg" alt="">
+                    <div class="wrap__card">
+                    <h3>MacBook Pro 16”</h3>
+                    <p>От 234 990 pyб.</p>
+                    <ul>
+                        <li>Дисплей Retina 16 дюймов</li>
+                        <li class="chip-feature">Процессор Intel Core i7 или Intel Core i9</li>
+                        <li>Память до 64 ГБ</li>
+                        <li>Накопитель до 8 ТБ</li>
+                        <li>До 11 часов без подзарядки</li>
+                    </ul>
+                    <a href="card.html" class="card__btn"> Купить</a>
+                    <a href="card.html">Подробнее ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <ul>
+                    <li class="footer__title">Выбирайте и покупайте</li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">iPod touch</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                </ul>
+                <ul>
+                    <li class="footer__title">Сервисы</li>
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Apple TV+</a></li>
+                    <li><a href="#">Apple Arcade</a></li>
+                    <li><a href="#">iCloud</a></li>
+                    <li><a href="#">Apple One</a></li>
+                    <li><a href="#">Apple Pay</a></li>
+                    <li><a href="#">Apple Books</a></li>
+                    <li><a href="#">App Store</a></li>
+                    <li class="footer__title">Учётная запись</li>
+                    <li><a href="#">Управление вашим Apple ID</a></li>
+                    <li><a href="#">Учётная запись Apple Store</a></li>
+                    <li><a href="#">iCloud.com</a></li>
+                </ul>
+                <ul>
+                    <li class="footer__title">Apple Store</li>
+                    <li><a href="#">Купить онлайн</a></li>
+                    <li><a href="#">Варианты оплаты</a></li>
+                    <li><a href="#">Переработка устройств Apple</a></li>
+                    <li><a href="#">Состояние заказа</a></li>
+                    <li><a href="#">Помощь при покупке</a></li>
+                </ul>
+                <ul>
+                    <li class="footer__title">Для бизнеса</li>
+                    <li><a href="#">Apple в бизнесе</a></li>
+                    <li class="footer__title">Для образования</li>
+                    <li><a href="#">Apple в образовании</a></li>
+                    <li><a href="#">Покупка и поддержка</a></li>
+                    <li><a href="#">Купите для учёбы</a></li>
+                </ul>
+                <ul>
+                    <li class="footer__title">Ценности Apple</li>
+                    <li><a href="#">Универсальный доступ</a></li>
+                    <li><a href="#">Окружающая среда</a></li>
+                    <li><a href="#">Конфиденциальность</a></li>
+                    <li class="footer__title">О компании Apple</li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">Руководство Apple</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="#">Инвесторы</a></li>
+                    <li><a href="#">Презентации</a></li>
+                    <li><a href="#">Контактная информация</a></li>
+                </ul>
+            </div><!-- footer__inner -->
+            <p class="footer__offical">Найдите <a href="#"> магазин официального партнёра</a> или позвоните в службу поддержки по телефону 8‑800‑333‑51‑73.</p>
+            <p class="footer__copi">© Apple Inc., 2021 г. Все права защищены.</p>
+            <ul class="footer__nav">
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Использование cookies</a></li>
+                <li><a href="#">Условия использования</a></li>
+                <li><a href="#">Продажа и возврат</a></li>
+                <li><a href="#">Юридическая информация</a></li>
+                <li><a href="#">Карта сайта</a></li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
+
 </html>

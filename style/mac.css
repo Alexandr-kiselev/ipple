@@ -1,14 +1,136 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .dark {
     background: #000;
 }
-.chip {
+.product {
     padding: 96px 0 180px;
-    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.chip h1 {
+.chip {
+    margin: 0 auto;
+    display: block;
+}
+.title {
     background: radial-gradient(ellipse at center, #eff1ff 10%, #000 100%);
     background-size: 54% 156%;
     background-position: center center;
-    color: #f5f5f7;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 698px;
+    font-size: 74px;
+    margin-top: 21px;
+    text-align: center;
+    display: block;
+    margin: 21px auto 195px;
+}
+.poduct__decrip {
+    color: #fff;
+    display: flex;
+}
+.revers {
+    flex-direction: row-reverse;
+    padding: 80px 0 120px;
+}
+.new {
+    color: #EC5F00;
+    font-weight: 600;
+}
+.set {
+    font-weight: 600;
+}
+.product__title {
+    font-size: 40px;
+}
+.product__subtitle {
+    font-size: 21px;
+    margin: 11px 0 20px;
+    width: 222px;
+}
+.product__btn {
+    background: #0071E3;
+    color: #fff;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 30px;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.product__link {
+    color: #258AE9;
+    display: block;
+    margin-top: 20px;
+}
+.selection {
+    background: #F2F2F2;
+    margin: 30px 0;
+    padding:  115px 0 70px;
+    text-align: center;
+}
+.banner-container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.selection__title {
+    font-size: 45px;
+    color: #1D1D1F;
+    margin-bottom: 45px;
+}
+.compare {
+    color: #639FDC;
+}
+/* .card {
+    max-width: 33.333%;
+} */
+.card + .card {
+    margin-left: 36px;
+}
+.card h3 {
+    margin-top: 20px;
+}
+.wrap__card {
+    padding-left: 28px;
+}
+.card ul {
+    list-style: none;
+    margin: 20px 0;
+}
+.card li {
+    margin-bottom: 15px;
+}
+.card span {
+    color: #86868b;
+}
+.selection__cards {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: #1d1d1f;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+.card__btn {
+    background: #0071E3;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 80px;
+}
+.chip-feature {
+    min-height: 60px;
+    max-width: 304px;
 }
